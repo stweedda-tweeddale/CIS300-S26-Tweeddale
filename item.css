@@ -61,6 +61,76 @@ ul {
     color: #ffffff;
 }
 
+table {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+#spellTable tbody tr:nth-of-type(odd) {
+    background-color: #2a3b55;
+}
+
+#spellTable th {
+    background-color: #1e293b;
+    color: #38bdf8;
+    text-align: center;
+}
+
+#spellTable {
+    width: 100%;
+}
+
+#spellTable td {
+    text-align: left;
+    vertical-align: top;
+}
+
+#spellTable th {
+    text-align: center;
+}
+
+#spellTable td:nth-child(5) {
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+#creatureTable tbody tr:nth-of-type(odd) {
+    background-color: #2a3b55;
+}
+
+#creatureTable th {
+    background-color: #1e293b;
+    color: #38bdf8;
+    text-align: center;
+}
+
+#creatureTable {
+    width: 100%;
+}
+
+#creatureTable td {
+    text-align: left;
+    vertical-align: top;
+}
+
+#creatureTable th {
+    text-align: center;
+}
+
+#creatureTable td:nth-child(5) {
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
 .item {
     border: 2px solid #38bdf8;
     background-color: #0f172a;
@@ -152,6 +222,8 @@ main {
     background-color: #16213E;
     text-align: center;
     border-left: solid 2px #38bdf8;
+    min-height: 1050px;
+
 }
 
 #right-column h3 {
@@ -181,12 +253,25 @@ main {
 .hero-image {
     width: 100%;
     height: 250px;
+    object-fit: cover;
 }
 
+.spell-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.creature-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
 
 footer {
-    background-color: #ca5151;
+    background-color: #16213e;
     color: #fcfcff;
     text-align: center;
     padding: 10px;
+    border-top: solid 2px #38bdf8;
 }
