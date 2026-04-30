@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive guide to the magical items in the world of Dungeons and Dragons 5e.">
     <title>Magical Item Compendium</title>
     <link rel="stylesheet" href="item.css">
 </head>
@@ -15,7 +15,6 @@
         <ul>
             <a href="index.html">Home</a>
             <a href="items.html">Item Compendium</a>
-            <a href="homeBrew.html">Home-Brew</a>
             <a href="spells.html">Spells</a>
             <a href="creatures.html">Creatures</a>
             <a href="contact.html">Contact</a>
@@ -26,12 +25,10 @@
             <div id="left-column">
             <h3>Links to Related Resources</h3>
                 <ul>
-                    <li><a href="resources.html">Fantasy World Guide</a></li>
-                    <li><a href="resources.html">Magical Creatures Handbook</a></li>
-                    <li><a href="resources.html">Spellcasting Fundamentals</a></li>
-                    <li><a href="resources.html">Adventurer's Toolkit</a></li>
-                    <li><a href="resources.html">Enchanted Artifacts Catalog</a></li>
-                    <li><a href="resources.html">Mythical Beasts Encyclopedia</a></li>
+                    <li><a href="https://www.dndbeyond.com/monsters">Magical Creatures Handbook</a></li>
+                    <li><a href="https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting">Spellcasting Fundamentals</a></li>
+                    <li><a href="https://www.dndbeyond.com">DnD Beyond</a></li>
+                    <li><a href="https://www.dndbeyond.com/magic-items">Enchanted Artifacts Catalog</a></li>
                 </ul>
             </div>
             <div id="center-column">
@@ -39,8 +36,22 @@
                     <img src="hero.png" alt="Hero Image" class="hero-image">
                 </div>
                 <div id="middle-column">
-                    <h2>This page is a work in progress</h2>
-                    <p>This is a simple placeholder for the Item Compendium page. More content will be added soon!</p>
+                    <h2>Magical Items</h2>
+                    <p>Discover a vast collection of magical items, each with its own unique properties and lore. Whether you're a seasoned adventurer or a curious newcomer, our compendium offers something for everyone.</p>
+                    <p>Explore our featured items, learn about their origins, and find out how they can aid you on your quests. From enchanted weapons to mystical artifacts, the Magical Item Compendium is your ultimate guide to the wonders of magic.</p>
+                    <input type="text" id="searchInput" placeholder="Search for items...">
+                    <table id="itemTable">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Attunement</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
                 </div>            
             </div>
             <div id="right-column">
@@ -65,6 +76,9 @@
     </main>
     <footer>
         <p>&copy; 2026 The Magical Item Compendium. All rights reserved.</p>
+        <p>Designed and developed by Scott, with contributions from the Dungeons and Dragons community.</p>
+        <a href="scott@tweeddale.com">scott@tweeddale.com</a>
     </footer>
+    <script src="items.js"></script>
 </body>
 </html>

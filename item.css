@@ -75,6 +75,11 @@ td {
     text-align: center;
 }
 
+video {
+    display : block;
+    margin: 0 auto;
+}
+
 #spellTable tbody tr:nth-of-type(odd) {
     background-color: #2a3b55;
 }
@@ -127,6 +132,34 @@ td {
 }
 
 #creatureTable td:nth-child(5) {
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+#itemTable tbody tr:nth-of-type(odd) {
+    background-color: #2a3b55;
+}
+
+#itemTable th {
+    background-color: #1e293b;
+    color: #38bdf8;
+    text-align: center;
+}
+
+#itemTable {
+    width: 100%;
+}
+
+#itemTable td {
+    text-align: left;
+    vertical-align: top;
+}
+
+#itemTable th {
+    text-align: center;
+}
+
+#itemTable td:nth-child(5) {
     max-width: 400px;
     word-wrap: break-word;
 }
@@ -275,3 +308,11 @@ footer {
     padding: 10px;
     border-top: solid 2px #38bdf8;
 }
+
+form {
+        width: 60%;
+        max-width: 30em;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 6em 1fr;
+    }
